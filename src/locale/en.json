@@ -1,0 +1,19 @@
+{
+	"splash": {
+		"author": "Urij Horuzij",
+		"authorImage": "Author of the illustration:",
+		"copyright": "All rights reserved",
+		"title": "Super resolution",
+		"loading": "Loading"
+	},
+	"frame": {
+		"minimize": "",
+		"maximize": "",
+		"unmaximize": "",
+		"close": "Close"
+	},
+	"home": {
+		"name": "Super resolution",
+		"title": "Welcome"
+	}
+}

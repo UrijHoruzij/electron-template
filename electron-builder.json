@@ -1,0 +1,25 @@
+{
+	"productName": "Name",
+	"appId": "org.name.name",
+	"copyright": "Copyright © 2023 ${author}",
+	"artifactName": "${name}-${version}-${os}.${ext}",
+	"asar": true,
+	"linux": {
+		"target": ["deb", "rpm"],
+		"maintainer": "Urij Horuzij <urijhoruzij@gmail.com>",
+		"category": "Graphics;2DGraphics;RasterGraphics;ImageProcessing;",
+		"synopsis": "AI Image Upscaler",
+		"description": "description"
+	},
+	"win": {
+		"target": ["nsis"]
+	},
+	"nsis": {
+		"allowToChangeInstallationDirectory": true,
+		"oneClick": false,
+		"runAfterFinish": true,
+		"perMachine": true
+	},
+	"files": ["main", "out"],
+	"publish": [{ "provider": "github", "repo": "repo", "owner": "UrijHoruzij" }]
+}
