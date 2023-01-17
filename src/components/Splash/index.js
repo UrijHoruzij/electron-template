@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './Splash.module.css';
 import splashImage from '../../../public/images/splash.jpg';
-import logo from '../../../public/images/logo-big.svg';
+import logo from '../../../public/images/icon.png';
 
 const Splash = (props) => {
 	const { messages, version } = props;
