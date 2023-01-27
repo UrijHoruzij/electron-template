@@ -72,7 +72,6 @@ app.on('ready', async () => {
 	if (isDev) {
 		mainWindow.webContents.openDevTools();
 	}
-	mainWindow.removeMenu();
 	mainWindow.once('ready-to-show', () => {
 		setTimeout(() => {
 			splashWindow.close();
